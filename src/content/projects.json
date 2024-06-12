@@ -59,14 +59,14 @@
                 "cards": [
                   {
                     "image": {
-                      "src": "/images/logos/project1.png",
+                      "src": "/images/logos/portifolio.png",
                       "width": 350,
                       "height": 192,
-                      "alt": "Project 1 logo"
+                      "alt": "Portifolio logo"
                     },
                     "title": "Old portifolio",
                     "link": "/projects/portifolio",
-                    "text": "Responsive nextjs SPA portifolio page.",
+                    "text": "Responsive Nextjs SPA portifolio page.",
                     "tags": [
                       "React",
                       "Next.js",
@@ -100,7 +100,7 @@
                     },
                     "title": "Game quiz",
                     "link": "/projects/quiz",
-                    "text": "One page game quiz",
+                    "text": "Alura'Imersão game quiz",
                     "tags": [
                       "React",
                       "JavaScript"
@@ -121,40 +121,21 @@
           "width": "full",
           "components": [
             {
-              "type": "LinkClouds",
+              "type": "IconsBox",
               "props": {
-                "logo": {
-                  "src": "/images/resufolio-icon.svg",
-                  "width": 80,
-                  "height": 80,
-                  "alt": "Resufolio logo"
-                },
-                "text": "**John Doe** is a fictional **Software Engineer** and this page is example content for [Resufolio](https://resufolio.github.io).\n\n Made using Resufolio.",
-                "linkColumns": [
+                "title": "Contact me",
+                "icons": [
                   {
-                    "title": "Links",
-                    "links": [
-                      {
-                        "title": "Fork this project",
-                        "url": "https://github.com/johndoe/johndoe.github.io"
-                      },
-                      {
-                        "title": "Download my resume",
-                        "url": "#"
-                      },
-                      {
-                        "title": "Sponsor me on GitHub",
-                        "url": "https://github.com/sponsors/teles"
-                      },
-                      {
-                        "title": "Share this page on LinkedIn",
-                        "url": "https://www.linkedin.com/sharing/share-offsite/?url=resufolio.github.io"
-                      },
-                      {
-                        "title": "Report an issue",
-                        "url": "https://github.com/resufolio/resufolio.github.io/issues"
-                      }
-                    ]
+                    "name": "GitHub",
+                    "link": "https://github.com/lucianowribeiro"
+                  },
+                  {
+                    "name": "LinkedIn",
+                    "link": "https://www.linkedin.com/in/lucianowribeiro/"
+                  },
+                  {
+                    "name": "CV",
+                    "link": "/cv/lucianowribeiro_cv.pdf"
                   }
                 ]
               }

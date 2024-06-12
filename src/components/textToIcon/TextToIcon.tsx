@@ -10,7 +10,7 @@ import {
   FaMoon,
   FaSun
  } from 'react-icons/fa'
- import { MdWork } from "react-icons/md";
+import { MdWork } from "react-icons/md"
  
 
 interface TextToIconProps {

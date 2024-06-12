@@ -23,7 +23,7 @@ interface Project {
   }
   links?: {
     href: string;
-    source: 'GitHub' | 'NPM' | 'DevTo'
+    source: 'GitHub' | 'Link'
     text: string;
   }[]
 }
@@ -55,6 +55,7 @@ const projectToSection = (project: Project, content: string): Section => {
 }
 
 export default async function ProjectPage({ params }: { params: { slug: string } }) {
+  console.log(params)
     const filePath = paths.find((path) => path.slugs === params.slug)?.path
 
     if(!filePath) {
