@@ -59,50 +59,51 @@
                 "cards": [
                   {
                     "image": {
-                      "src": "/images/logos/example-card.svg",
+                      "src": "/images/logos/project1.png",
                       "width": 350,
                       "height": 192,
                       "alt": "Project 1 logo"
                     },
-                    "title": "Project 1",
-                    "link": "/projects/example",
-                    "text": "A web application for managing tasks.",
+                    "title": "Old portifolio",
+                    "link": "/projects/portifolio",
+                    "text": "Responsive nextjs SPA portifolio page.",
                     "tags": [
+                      "React",
+                      "Next.js",
                       "JavaScript",
-                      "React",
-                      "Node.js"
+                      "Styled Components"
                     ]
                   },
                   {
                     "image": {
-                      "src": "/images/logos/example-card.svg",
+                      "src": "/images/logos/instalura.png",
                       "width": 616,
                       "height": 320,
-                      "alt": "Project 2"
+                      "alt": "Instalura"
                     },
-                    "title": "Project 2",
-                    "link": "/projects/example",
-                    "text": "An e-commerce platform built with Next.js.",
+                    "title": "Instalura",
+                    "link": "/projects/instalura",
+                    "text": "Alura bootcamp final project,instagram clone",
                     "tags": [
                       "React",
                       "Next.js",
-                      "Commerce"
+                      "JavaScript",
+                      "Styled Components"
                     ]
                   },
                   {
                     "image": {
-                      "src": "/images/logos/example-card.svg",
+                      "src": "/images/logos/quiz.gif",
                       "width": 616,
                       "height": 320,
-                      "alt": "Project 3"
+                      "alt": "Quiz image"
                     },
-                    "title": "Project 3",
-                    "link": "/projects/example",
-                    "text": "A web application for managing tasks.",
+                    "title": "Game quiz",
+                    "link": "/projects/quiz",
+                    "text": "One page game quiz",
                     "tags": [
                       "React",
-                      "Next.js",
-                      "Commerce"
+                      "JavaScript"
                     ]
                   }
                 ]

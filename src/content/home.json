@@ -1,21 +1,21 @@
 {
   "meta": {
-    "title": "Luciano - Software Engineer",
-    "description": "Software Engineer with extensive experience in web development, proficient in JavaScript, React, Node.js, and more. Passionate about building scalable applications and enhancing user experiences.",
+    "title": "Luciano - Jr Developer",
+    "description": "Jr Developer with 3 years of experience in frontend stack ** ReactJs, Material UI,Typecript,Redux **. Participing at digital asset SaaS B2B plataform with relevent marketplayers",
     "openGraph": {
-      "title": "Luciano - Software Engineer",
-      "description": "Software Engineer with extensive experience in web development, proficient in JavaScript, React, Node.js, and more. Passionate about building scalable applications and enhancing user experiences.",
+      "title": "Luciano - Jr Developer",
+      "description": "Jr Developer with 3 years of experience in frontend stack ** ReactJs, Material UI,Typecript,Redux **. Participing at digital asset SaaS B2B plataform with relevent market players",
       "type": "website",
       "author": "Luciano",
-      "locale": "en_US",
+      "locale": "pt_BR",
       "url": "#",
       "site_name": "Luciano Portfolio",
       "images": [
         {
-          "url": "/images/ogimage.png",
+          "url": "images/avatar.png",
           "width": 1200,
           "height": 630,
-          "alt": "Luciano - Software Engineer"
+          "alt": "Luciano - Jr Developer"
         }
       ]
     }
@@ -37,16 +37,16 @@
               "type": "Hero",
               "props": {
                 "image": {
-                  "src": "/images/avatartion.svg",
+                  "src": "/images/avatar.svg",
                   "width": 264,
                   "height": 307,
                   "alt": "Luciano's avatar"
                 },
-                "markdownText": "# 👋 Hello, my name is Luciano.\nI am a **Software Engineer** with extensive experience in web development, proficient in **JavaScript**, **React**, **Node.js**, and more.\n\nI am passionate about building scalable applications and enhancing user experiences.",
+                "markdownText": "# 👋 Hello, my name is Luciano.\nI am a **Jr Developer** with 3 years of experience in frontend stack **ReactJs, Material UI,Typescript,Redux**.Participing at digital asset SaaS B2B plataform with relevant players",
                 "callToAction": {
                   "text": "Connect with me",
                   "icon": "LinkedIn",
-                  "link": "#"
+                  "link": "https://www.linkedin.com/in/lucianowribeiro/"
                 }
               }
             }
@@ -56,7 +56,7 @@
     },
     {
       "container": {
-        "bottom": "xs"
+        "bottom": "xss"
       },
       "columns": [
         {
@@ -75,7 +75,7 @@
     },
     {
       "container": {
-        "bottom": "xs"
+        "bottom": "md"
       },
       "columns": [
         {
@@ -92,16 +92,15 @@
                         "type": "PillList",
                         "props": {
                           "pills": [
-                            "JavaScript",
                             "React",
-                            "Node.js",
+                            "Material UI",
+                            "JavaScript",
                             "CSS",
                             "HTML",
                             "Git",
-                            "Webpack",
                             "REST API",
                             "Agile",
-                            "Scrum"
+                            "Styled Components"
                           ]
                         }
                       }
@@ -114,14 +113,12 @@
                         "type": "PillList",
                         "props": {
                           "pills": [
+                            "Storybook",
+                            "Redux(sagas)",
+                            "Node.js",
                             "TypeScript",
-                            "GraphQL",
-                            "Python",
-                            "Docker",
-                            "Kubernetes",
-                            "AWS",
-                            "MongoDB",
-                            "SQL"
+                            "Linux",
+                            "Next.Js"
                           ]
                         }
                       }
@@ -134,14 +131,14 @@
                         "type": "PillList",
                         "props": {
                           "pills": [
-                            "PHP",
-                            "Ruby",
-                            "Go",
-                            "Swift",
-                            "Photography",
+                            "Docker",
+                            "Mysql",
+                            "Java",
+                            "Go out with my friends",
+                            "Watching films and youtube",
+                            "Reading",
                             "Traveling",
-                            "Cooking",
-                            "Reading"
+                            "Play videogames"
                           ]
                         }
                       }
@@ -156,7 +153,52 @@
     },
     {
       "container": {
-        "bottom": "md"
+        "bottom": "xs"
+      },
+      "columns": [
+        {
+          "width": "full",
+          "components": [
+            {
+              "type": "Heading",
+              "props": {
+                "level": 2,
+                "text": "👷‍♂️ Professional Experiences"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "columns": [
+        {
+          "width": "full",
+          "components": [
+            {
+              "type": "FlatList",
+              "props": {
+                "title": "Jr Developer at Visto Tecnologia (May. 2021 - Jun. 2024)",
+                "items": [
+                  "Responsible for demands involving the frontend (**ReactJS/Material UI/Typescript/Redux with sagas**) of a SaaS B2B platform for digital assets with major market players, I worked on fronts such as:",
+                  "Automation of personalized marketing processes for customers.",
+                  "Implementation of visual templates for an email messaging service.",
+                  "Creation from scratch of a new front-end application for a print delivery service for various marketing campaigns.",
+                  "Participation of an agile product squad, focused on innovation, legacy software maintenance and code review.",
+                  "Periodic assistance in support/N3",
+                  "Brief walkthrough of Java Spring apis and Mysql database."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "container": {
+        "top": "md",
+        "bottom": "xs"
       },
       "columns": [
         {
@@ -192,50 +234,51 @@
                 "cards": [
                   {
                     "image": {
-                      "src": "/images/logos/example-card.svg",
+                      "src": "/images/logos/portifolio.png",
                       "width": 350,
                       "height": 192,
-                      "alt": "Project 1 logo"
+                      "alt": "Old portifolio image"
                     },
-                    "title": "Project 1",
-                    "link": "/projects/example",
-                    "text": "A web application for managing tasks.",
+                    "title": "Old portifolio",
+                    "link": "/projects/portifolio",
+                    "text": "Responsive nextjs SPA portifolio page.",
                     "tags": [
+                      "React",
+                      "Next.js",
                       "JavaScript",
-                      "React",
-                      "Node.js"
+                      "Styled Components"
                     ]
                   },
                   {
                     "image": {
-                      "src": "/images/logos/example-card.svg",
+                      "src": "/images/logos/instalura.png",
                       "width": 616,
                       "height": 320,
-                      "alt": "Project 2"
+                      "alt": "Instalura image"
                     },
-                    "title": "Project 2",
-                    "link": "/projects/example",
-                    "text": "An e-commerce platform built with Next.js.",
+                    "title": "Instalura",
+                    "link": "/projects/instalura",
+                    "text": "Alura bootcamp final project,instagram clone",
                     "tags": [
                       "React",
                       "Next.js",
-                      "Commerce"
+                      "JavaScript",
+                      "Styled Components"
                     ]
                   },
                   {
                     "image": {
-                      "src": "/images/logos/example-card.svg",
+                      "src": "/images/logos/quiz.gif",
                       "width": 616,
                       "height": 320,
-                      "alt": "Project 3"
+                      "alt": "Quiz image"
                     },
-                    "title": "Project 3",
-                    "link": "/projects/example",
-                    "text": "A web application for managing tasks.",
+                    "title": "Game quiz",
+                    "link": "/projects/quiz",
+                    "text": "One page game quiz",
                     "tags": [
                       "React",
-                      "Next.js",
-                      "Commerce"
+                      "JavaScript"
                     ]
                   }
                 ]
@@ -247,62 +290,8 @@
     },
     {
       "container": {
-        "bottom": "md"
-      },
-      "columns": [
-        {
-          "width": "full",
-          "components": [
-            {
-              "type": "Heading",
-              "props": {
-                "level": 2,
-                "text": "👷‍♂️ Professional Experiences"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "columns": [
-        {
-          "width": "full",
-          "components": [
-            {
-              "type": "FlatList",
-              "props": {
-                "title": "Senior Software Engineer at Tech Corp (Jan. 2019 - Present)",
-                "items": [
-                  "Led the development of a high-traffic web application using **React** and **Node.js**.",
-                  "Collaborated with cross-functional teams to define and implement new features.",
-                  "Optimized application performance, resulting in a 30% reduction in load times."
-                ]
-              }
-            }
-          ]
-        },
-        {
-          "width": "full",
-          "components": [
-            {
-              "type": "FlatList",
-              "props": {
-                "title": "Software Engineer at Web Solutions (Jun. 2015 - Dec. 2018)",
-                "items": [
-                  "Developed and maintained web applications using **JavaScript** and **React**.",
-                  "Implemented responsive design techniques to improve user experience on mobile devices.",
-                  "Contributed to the development of RESTful APIs."
-                ]
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "container": {
-        "top": "md"
+        "top": "xs",
+        "bottom": "xs"
       },
       "columns": [
         {
@@ -321,7 +310,7 @@
     },
     {
       "container": {
-        "top": "md"
+        "bottom": "xs"
       },
       "columns": [
         {
@@ -329,72 +318,22 @@
             {
               "type": "FlatList",
               "props": {
-                "title": "University of Somewhere (2011 - 2015)",
+                "title": "Alura (fev 2021 - jun 2024)",
                 "items": [
-                  "Bachelor's Degree in Computer Science"
+                  "Bootcamp Front-END JAM Stack, Software Development"
                 ]
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "container": {
-        "top": "md",
-        "bottom": "xs"
-      },
-      "columns": [
-        {
-          "width": "full",
-          "components": [
-            {
-              "type": "Heading",
-              "props": {
-                "level": 2,
-                "text": "Let's work together! 🚀"
               }
             }
           ]
         },
         {
-          "width": "full",
           "components": [
             {
-              "type": "Prose",
+              "type": "FlatList",
               "props": {
-                "text": "If you are interested in working with me, feel free to [reach me out](#)."
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "container": {
-        "bottom": "none"
-      },
-      "columns": [
-        {
-          "width":"full",
-          "components": [
-            {
-              "type": "IconsBox",
-              "props": {
-                "title": "Find me on these platforms",
-                "icons": [
-                  {
-                    "name": "GitHub",
-                    "link": "https://github.com/resufolio"
-                  },
-                  {
-                    "name": "LinkedIn",
-                    "link": "#"
-                  },
-                  {
-                    "name": "Twitter",
-                    "link": "#"
-                  }
+                "title": "Fatec SCS (2014 - 2016)",
+                "items": [
+                  "Technology's Degree in System Analisys and Development"
                 ]
               }
             }
@@ -410,40 +349,21 @@
           "width": "full",
           "components": [
             {
-              "type": "LinkClouds",
+              "type": "IconsBox",
               "props": {
-                "logo": {
-                  "src": "/images/resufolio-icon.svg",
-                  "width": 80,
-                  "height": 80,
-                  "alt": "Resufolio logo"
-                },
-                "text": "**Luciano** is a fictional **Software Engineer** and this page is example content for [Resufolio](https://resufolio.github.io).\n\n Made using Resufolio.",
-                "linkColumns": [
+                "title": "Contact me",
+                "icons": [
                   {
-                    "title": "Links",
-                    "links": [
-                      {
-                        "title": "Fork this project",
-                        "url": "https://github.com/johndoe/johndoe.github.io"
-                      },
-                      {
-                        "title": "Download my resume",
-                        "url": "#"
-                      },
-                      {
-                        "title": "Sponsor me on GitHub",
-                        "url": "https://github.com/sponsors/teles"
-                      },
-                      {
-                        "title": "Share this page on LinkedIn",
-                        "url": "https://www.linkedin.com/sharing/share-offsite/?url=resufolio.github.io"
-                      },
-                      {
-                        "title": "Report an issue",
-                        "url": "https://github.com/resufolio/resufolio.github.io/issues"
-                      }
-                    ]
+                    "name": "GitHub",
+                    "link": "https://github.com/lucianowribeiro"
+                  },
+                  {
+                    "name": "LinkedIn",
+                    "link": "https://www.linkedin.com/in/lucianowribeiro/"
+                  },
+                  {
+                    "name": "CV",
+                    "link": "/cv/lucianowribeiro_cv.pdf"
                   }
                 ]
               }
