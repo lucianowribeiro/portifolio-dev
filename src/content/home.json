@@ -365,7 +365,14 @@
                     "name": "CV",
                     "link": "/cv/lucianowribeiro_cv.pdf"
                   }
-                ]
+                ],
+                "footer": {
+                  "description": "Site portifolio made by",
+                  "link": {
+                    "title": "Resufolio",
+                    "href" : "https://github.com/resufolio"
+                  }
+                }
               }
             }
           ]
